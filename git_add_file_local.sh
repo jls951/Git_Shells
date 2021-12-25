@@ -18,6 +18,6 @@ echo "Add file(s)"  ${4} "local repository" ${3} "done"
 git status
 git commit -am ${5}
 git status
-
+git push --all https://github.com/jls951/Git_Shells.git
 
 
